@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: lightgreen;
+    color: rgb(65, 60, 60);
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(240, 235, 235);
+    text-align: center;
+    font-family: "Hannari";
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+#want-dog {
+   font-size: 30px;
+   padding: 5px;
+   color: rgb(65, 60, 60);
+   background-color: rgb(229, 230, 221);
+   border-style: dashed;
+}
+#description {
+    margin: 0px 100px 0px 100px;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
+@media screen and (max-width: 600px){
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    .header{
+        font-size: 30px;
+        width: 100%;
+        height: 100%;
+    }
+    #picture {
+        width: 100%;
+        height: 100%;
+    }
+
+}
